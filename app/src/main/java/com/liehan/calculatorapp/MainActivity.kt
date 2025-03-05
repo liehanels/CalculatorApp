@@ -20,11 +20,11 @@ class MainActivity : AppCompatActivity() {
         }
         //start of my code
         var birthday = 8
-        birthday = birthday + 10
+        birthday += 10
         //display log message
         Log.d(TAG, "Birthday + 10 = $birthday")
         //display log error message
-        birthday = birthday * 3
+        birthday *= 3
         Log.e(TAG, "Birthday * 3 = $birthday")
         //display log warning message
         birthday -= 5
