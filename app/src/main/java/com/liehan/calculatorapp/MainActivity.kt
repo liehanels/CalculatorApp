@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         //start of my code
         var birthday = 8
+        //birthday = birthday + 10
         birthday += 10
         //display log message
         Log.d(TAG, "Birthday + 10 = $birthday")
@@ -32,5 +33,6 @@ class MainActivity : AppCompatActivity() {
         //display log info message
         birthday /= 2
         Log.i(TAG, "Birthday / 2 = $birthday")
+
     }//end of onCreate
 }
